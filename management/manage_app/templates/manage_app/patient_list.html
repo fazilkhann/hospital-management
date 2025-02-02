@@ -1,0 +1,6 @@
+<h1>Patient List</h1>
+<ul>
+    {% for patient in patients %}
+        <li>{{ patient.name }} - {{ patient.age }} - {{ patient.gender }}</li>
+    {% endfor %}
+</ul>
